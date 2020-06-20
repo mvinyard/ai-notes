@@ -18,10 +18,10 @@ Related Stanford courses are on slide 1-5
 - computer vision
   - Block world, Larry Roberts, 1963
   - 1966: MIT "Summer Vision Project" - AI group; vision is of course a problem that is still not solved > 50 years later.
-  - David Marr - vision book; ![](/Users/mvinyard/Github/ai-notes/cs231n/images/cs231n/1-13.png)
+  - David Marr - vision book; ![](./images/cs231n/1-13.png)
 
     a) Generalized cylinder (Brooks, Binford, 1979)
-    b) Pictorial structure (Fischler, Elschlager, 1973) ![](/Users/mvinyard/Github/ai-notes/cs231n/images/cs231n/1-14.png)
+    b) Pictorial structure (Fischler, Elschlager, 1973) ![](./images/cs231n/1-14.png)
   - Face detection
   - SIFT feature recognition, object recognition (D. Lowe, 1999)
   - Spatial pyramid matching - takes features and vector machine algorithms
