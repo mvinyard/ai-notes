@@ -14,7 +14,7 @@
       - kNN requires a lot of compute - *each* test because you do not really train anything and you evaluate against *all* images for each test - this is the opposite of a convolutional neural net
       - instead of copy a label from the nearest neighbors, take the majority vote from the *k* closest points. There are fancier options, but this is simple and effective.
     - **L2 distance (eculidian distance)**: $d_2(I_1,I_2) =\sqrt{\displaystyle\sum_{\rho}^{}(I_{1}^\rho-I_2^\rho)^2}$
-    - Interestingly, each distance metric makes different assumptions; L1 space is distributed in a square whereas L2 distance is a circle. L1 distance changes when you rotate the coordinate frame whereas L2 does not change. If the input vector has some important meaning, perhaps L1 is more natural; if not, L2 may be a more natural choice; pick what makes sense for your application. ![](./images/2-31.png =400x)
+    - Interestingly, each distance metric makes different assumptions; L1 space is distributed in a square whereas L2 distance is a circle. L1 distance changes when you rotate the coordinate frame whereas L2 does not change. If the input vector has some important meaning, perhaps L1 is more natural; if not, L2 may be a more natural choice; pick what makes sense for your application. ![](./images/2-31.png)
   - kNN is a good choice when looking at a new problem because it is very smiple, yet generalizes to many types of data.
   - choice of *k* and the *distance metric* are **hyperparameters**. How do we make a choice for our data? This turns out to be very problem-dependent; you must try them all out and see what works best.
 
