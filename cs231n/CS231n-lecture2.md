@@ -18,7 +18,7 @@
   - kNN is a good choice when looking at a new problem because it is very smiple, yet generalizes to many types of data.
   - choice of *k* and the *distance metric* are **hyperparameters**. How do we make a choice for our data? This turns out to be very problem-dependent; you must try them all out and see what works best.
 
-### Setting hyperparameters (HPs)
+#### Setting hyperparameters (HPs)
   - **idea #1**: choose HPs that work best - ***this is a bad idea!***
     - k=1; this is what we would ***always*** choose! It works perfectly on training data (overfitting).
   - **idea #2**: splot the data into test and train; choose HPs that work best on the test data.
@@ -27,3 +27,30 @@
     - ****:
   - **idea #4**: cross-validation (x-val). split the data info ***folds***, try each fold as validation and average the results.
     - ***GOLD STANDARD***... but, in practice, this is used for small datasets, not so much in deep learning or where computational training is expensive.
+    - how representative might a training set be? **Answer**: *we make the assumption*: data are independently and identically distributed.
+    - make plots to show the accuracy of performance as a function of the chosen HPs
+  - kNN is almost ***never used*** on images because:
+      1. slow at test time
+      2. distance metrics on pixels are ***NOT INFORMATIVE***
+  - ***curse of dimensionality***: you will never have enough images to train all pixel spaces using kNN because as points ($n$) grow in dimensionality, $n^{Dim}$, the pixel space explodes.
+
+#### kNN Summary
+  - In image classification, we start with a training set of images and labels and predict labels on a test set.
+  - kNN classifier predicts labels based on nearest training examples
+  - Distance metrics ($L1, L2$) and $k$ = hyperparameters.
+  - Choose HPs using the validation set. Run on the test set ***only once at the very end***.
+
+#### Linear classification
+  - simple learning algorithm but super important and will help us build whole NNs as well as whole convolutional NNs
+  - NNs are often thought of as constructions of building blocks where each block is something simple; often these blocks are linear classifiers.
+  - ***Deep*** NNs are like building blocks that can be designed and combined to perform non-trivial tasks.
+
+  - CIFAR-10: each image is 32px x 32px x 3-color channels.
+  <img src="./images/2-cifar10.png" width="800"/>
+
+    <img src="./images/2-tough.png" width="800"/>
+
+***Coming up:***
+    - **loss functions** - quantify what it means to have a good $W$
+    - **optimization** - start with random $W$ and find $W$ such that loss is *minimized*
+    - **ConvNets** - tweak functional form of $f$
