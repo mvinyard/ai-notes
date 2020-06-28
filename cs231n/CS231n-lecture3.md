@@ -184,16 +184,15 @@
 
   <img src="./images/3-feature-histogram.png" width="600"/>
 
-  - pictures: color histogram
+  - pictures: **color histogram** (above, left)
 
-  - pictures: hisogram of oriented gradients (HoG)
+  - pictures: **histogram of oriented gradients** (HoG) (above, right)
 
       - divide an image into 8x8 pixel regions
 
       - quantize edge into 9 bins in each region; collect the **edge info**
 
   - bag of words: occurance of words in a paragraph (NLP)
-
     1. extract random patches of images
     2. cluster patches to construct a "cookbook" of "visual words"
     3. encode images
