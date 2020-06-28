@@ -178,10 +178,10 @@
   - rather than the raw values, ***feature representations*** are fed into a classifier
 
   **Motivation for image features**:
-  <img src="./images/4-feature-transform.png" width="600"/>
+  <img src="./images/3-feature-transform.png" width="600"/>
 
   - what is the right feature transformation for a given problem / input data?
-  <img src="./images/4-hisogram_features.png" width="600"/>
+  <img src="./images/3-hisogram_features.png" width="600"/>
       - pictures: color histogram
       - pictures: hisogram of oriented gradients (HoG)
           - divide an image into 8x8 pixel regions
