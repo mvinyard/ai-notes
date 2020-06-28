@@ -33,3 +33,7 @@
 
       return loss_i
     ```  
+    - if $L = 0$, is $W$ unique? ***NO!*** $2*W$ also has $L=0$!
+    - we have only told our classifier to calculate $loss$ on the training data; we don't worry about $2W$ or some other $W$.
+
+    <img src="./images/3-fit.png" width="500"/>
