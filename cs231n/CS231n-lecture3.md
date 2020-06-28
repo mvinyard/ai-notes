@@ -57,3 +57,16 @@
       - *each probability is between 0 and 1; it sums across all classes to be equal to 1.*
 
       - $L_i = -logP(y = y_i | x = x_i)$ and in summary $L_i = -log(\frac{e^s_{y_i}}{\sum_j e^{s_j}})$
+
+      - what are the $min()$ and $max()$ values of softmax loss? 0 and $inf$, $[0,inf)$
+      - SVM stops trying to improve a class once you pass an arbitrary margin of goodness, but softmax will always try to keep minimizing.
+
+**Recap**
+
+  - some data (x,Y)
+  - score function: $s = f(x, W) = W_x and we have a loss function (SVM or softmax) with a regularization term, $R(W)$ (penalizas model complexity) added to the loss calculation to get the ***full loss***.
+
+  - *Question*: so, how do we find $W$ such that it minimizes loss?
+  - *Answer*: optimization, there are two strategies.
+    1. **random search** - a ***very bad idea***
+    2. follow the slope via load topography - this is generally the most followed strategy.
