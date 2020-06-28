@@ -52,4 +52,4 @@
 
       - *also popular in deep learning: **softmax classifier*** (multinomial logistic regression) where scores are un-normalized log probabilities of the classes
 
-      - $P(Y = k | x = x_i) = \frac{e^s k}{\sum_j e^{s_j}}
+      - $P(Y = k | x = x_i) = \frac{e^s k}{\sum_j e^{s_j}}$
