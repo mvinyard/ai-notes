@@ -22,7 +22,7 @@
 
   - ***vectorized example of Numpy code for multiclass SVM loss***
 
-  - $L_i = \sum_{j≠y_i}max(0, s_j - s_{y_i} + 1)$
+  - $L(W) = \frac{1}{N} \sum_{i=1}^{N}L_i(f(x_i,W),y_i) + \lambda R (W)$
 
     ```
     def L_i_vectorized( x, y, W ):
@@ -36,4 +36,17 @@
     - if $L = 0$, is $W$ unique? ***NO!*** $2*W$ also has $L=0$!
     - we have only told our classifier to calculate $loss$ on the training data; we don't worry about $2W$ or some other $W$.
 
-    <img src="./images/3-fit.png" width="500"/>
+    <img src="./images/3-fit.png" width="800"/>
+
+
+    There are many types of regularization used in practice
+      - L2 (eculidian) regularization is common; $R(W) = \sum_k \sum_l W_{k_i,l}^2$
+      - L2 regularization with *weight decay*; $R(W) = \sum_k \sum_l W_{k,l}^2$
+          - $x = [1, 1, 1, 1]$
+          - $w_1 = [1, 0, 0, 0]$
+          - $w_2 = [0.25, 0.25, 0.25, 0.25]$
+          - $W_1^T x = W_2^T x = 1$
+
+          - ***for Bayesians***: L2 regularization correlates to MAP inference using a Gaussian prior on $W$
+
+    *also popular in deep learning: **softmax classifier** (multinomial logistic regression) where scores are un-normalized log probabilities of the classes
