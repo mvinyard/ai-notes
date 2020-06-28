@@ -181,6 +181,7 @@
   <img src="./images/3-feature-transform.png" width="600"/>
 
   - what is the right feature transformation for a given problem / input data?
+
   <img src="./images/3-feature-histogram.png" width="600"/>
 
   - pictures: color histogram
@@ -194,9 +195,7 @@
   - bag of words: occurance of words in a paragraph (NLP)
 
     1. extract random patches of images
-
     2. cluster patches to construct a "cookbook" of "visual words"
-
     3. encode images
 
 - image features vs. ConvNets
