@@ -39,7 +39,8 @@
     <img src="./images/3-fit.png" width="800"/>
 
 **L2 regularization**
-    There are many types of regularization used in practice
+
+  - There are many types of regularization used in practice
       - L2 (eculidian) regularization is common; $R(W) = \sum_k \sum_l W_{k_i,l}^2$
       - L2 regularization with *weight decay*; $R(W) = \sum_k \sum_l W_{k,l}^2$
           - $x = [1, 1, 1, 1]$
