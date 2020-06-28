@@ -6,6 +6,7 @@ A collection of notes on deep learning resources.
 
   - <a href = './cs229/CS229-lecture1.md'>**Lecture 1**</a>:**Welcome** (<a href = 'https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=1'>YouTube Video</a>)
   - <a href = './cs229/CS229-lecture2.md'>**Lecture 2**</a>: **Linear regression and gradient descent** (<a href = 'https://www.youtube.com/watch?v=4b4MUYve_U8&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=2'>YouTube Video</a>) (in progress)
+---
 
 #### Stanford CS231n notes: Computer Vision
 *with Fei Fei Li, Serena Yeung, and Justin Johnson* (2017 Spring)
