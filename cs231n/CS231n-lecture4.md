@@ -7,7 +7,7 @@
 
   **what we want**: $\nabla_w L$ *to minimize the loss function via optimization by gradient descent*
 
-  **gradient descent**: $\frac{df(x)}{dx} = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$
+  **gradient descent**: $\frac{df(x)}{dx} = \lim_{h\to0} \frac{f(x+h) - f(x)}{h}$
     - numerical gradient: slow, approximation, easy to write
     - analytical gradient: fast, exact, ***but*** *error-prone*
     - *So*: derive the analytical gradient, check the code with the numerical gradient
