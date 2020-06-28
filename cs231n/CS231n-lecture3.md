@@ -183,21 +183,21 @@
   - what is the right feature transformation for a given problem / input data?
   <img src="./images/3-feature-histogram.png" width="600"/>
 
-      - pictures: color histogram
+  - pictures: color histogram
 
-      - pictures: hisogram of oriented gradients (HoG)
+  - pictures: hisogram of oriented gradients (HoG)
 
-          - divide an image into 8x8 pixel regions
+      - divide an image into 8x8 pixel regions
 
-          - quantize edge into 9 bins in each region; collect the **edge info**
+      - quantize edge into 9 bins in each region; collect the **edge info**
 
-      - bag of words: occurance of words in a paragraph (NLP)
+  - bag of words: occurance of words in a paragraph (NLP)
 
-        1. extract random patches of images
+    1. extract random patches of images
 
-        2. cluster patches to construct a "cookbook" of "visual words"
+    2. cluster patches to construct a "cookbook" of "visual words"
 
-        3. encode images
+    3. encode images
 
-  - image features vs. ConvNets
-      - only difference is that in ConvNets, we learn features directly from the data.
+- image features vs. ConvNets
+  - only difference is that in ConvNets, we learn features directly from the data.
