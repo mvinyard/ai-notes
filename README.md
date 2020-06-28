@@ -1,6 +1,7 @@
 # ai-notes
 A collection of notes on deep learning resources.
 
+---
 #### Stanford CS229 notes: Machine Learning
 *with Andrew Ng* (2018 Fall)
 
