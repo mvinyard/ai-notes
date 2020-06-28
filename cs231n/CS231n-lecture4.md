@@ -1,5 +1,5 @@
 ### **CS231n - Lecture 4**: Intro to neural networks and back-propagation
-
+---
 *where we are so far*:
   - scores function: $s = f(x, W) = W_x$
   - SVM loss: $L_i = \sum_{j ≠ y_i} max (0, s_j - s_{y_i} + 1)$
@@ -18,3 +18,4 @@ $f = W_x$ ; $L_i = \sum_{j≠y_i}max(0,s_j - s_{y_i} + 1)$
 <img src="./images/4-compgraph2.png" width="600"/>
 
 Now we can use back-propagation!
+---
