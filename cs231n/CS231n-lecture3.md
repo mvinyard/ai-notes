@@ -6,7 +6,7 @@
   ***A loss function tells us how good our current classifier is***
 
   *given a dataset of examples:*
-  <img src="./images/3-examples.png" width="500"/>
+  <img src="./images/3-examples.png" width="400"/>
   <img src="./images/3-loss-examples.png" width="500"/>
 
 - ***GOAL***: find a $W$ that **minimizes the loss**
