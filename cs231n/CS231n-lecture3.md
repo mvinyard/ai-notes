@@ -124,17 +124,17 @@
       - you can iteratively update a parameter vector
       - on a computer, we use the method of ***finite differences***
 
-      | current $W$        | compute       | gradient $dW$ |   |   |
-      |--------------------|---------------|---------------|---|---|
-      | [0.34,             | 0.34 + 0.0001 | [-2.5,        |   |   |
-      | -1.11,             | ...           | 0.6,          |   |   |
-      | 0.12,              |               | 0.0,          |   |   |
-      | 0.55,              |               | 0.2,          |   |   |
-      | 2.81,              |               | 0.7,          |   |   |
-      | -3.10,             |               | -0.5,         |   |   |
-      | -1.50,             |               | 1.1,          |   |   |
-      | 0.33,...]          |               | 1.3,          |   |   |
-      | **loss = 1.25347** |               | -2.1,...]     |   |   |
+      | **current $W$**    | **compute**   |**gradient $dW$** |
+      |--------------------|---------------|------------------|
+      | [0.34,             | 0.34 + 0.0001 | [-2.5,           |
+      | -1.11,             | ...           | 0.6,             |
+      | 0.12,              |               | 0.0,             |
+      | 0.55,              |               | 0.2,             |
+      | 2.81,              |               | 0.7,             |
+      | -3.10,             |               | -0.5,            |
+      | -1.50,             |               | 1.1,             |
+      | 0.33,...]          |               | 1.3,             |
+      | **loss = 1.25347** |               | -2.1,...]        |
 
       ***this is a bad idea - too slow!***
     - instead, we can use calculus as *loss is a function of $W$*. to this end, we can obtain the *analytic gradient*: this is **exact** and **fast**
