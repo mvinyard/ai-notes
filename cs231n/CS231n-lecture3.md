@@ -38,6 +38,7 @@
 
     <img src="./images/3-fit.png" width="800"/>
 
+#### L2 regularization
 
     There are many types of regularization used in practice
       - L2 (eculidian) regularization is common; $R(W) = \sum_k \sum_l W_{k_i,l}^2$
@@ -49,4 +50,6 @@
 
           - ***for Bayesians***: L2 regularization correlates to MAP inference using a Gaussian prior on $W$
 
-    *also popular in deep learning: **softmax classifier** (multinomial logistic regression) where scores are un-normalized log probabilities of the classes
+      - *also popular in deep learning: **softmax classifier*** (multinomial logistic regression) where scores are un-normalized log probabilities of the classes
+
+      - $P(Y = k | x = x_i) = \frac{e^s k}{\sum_j e^{s_j}}
