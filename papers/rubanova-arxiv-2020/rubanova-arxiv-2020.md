@@ -13,4 +13,4 @@
     1. standalone autoregressive model
     2. refine latent ODE model from <a href=''>*Chen et al*</a>, using ODE-RNN as a recognition network
 
-**def, Latent ODEs**: define a generative process over time series based on the deterministic evolution of an initial latent state - can be trained as a variational auto-encoder.
+***definition***, **Latent ODEs**: define a generative process over time series based on the deterministic evolution of an initial latent state - can be trained as a variational auto-encoder.
