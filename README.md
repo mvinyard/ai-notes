@@ -18,6 +18,12 @@ A collection of notes on deep learning resources.
   - <a href = './cs231n/CS231n-lecture4.md'>**Lecture 4**</a>: **Introduction to neural networks** (<a href = 'https://www.youtube.com/watch?v=d14TUNcbn1k&list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk&index=4'>YouTube Video</a>) (in progress)
 
 ---
+#### 3Blue1Brown: The Essence of Linear Algebra**
+*by Grant Sanderson*
+
+  - (<a href = 'https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab'>YouTube Playlist</a>) (in progress)
+
+---
 
 #### Literature
 
