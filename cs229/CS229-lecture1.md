@@ -20,7 +20,5 @@
 - Many tools within ML
   - supervised learning - most used tool in ML
     - example: database of housing prices; given dataset (x,y) and learn a mapping from x -> y. "Regression problem." One can choose models that fit their data (linear, non-linear, etc.)
-    - <img src="/Users/mvinyard/Github/ai-notes/cs229/images/linear_reg.png" alt="Kitten"
-	title="linear regression and model fitting" width="400"/>
-    - ![linear regression and model fitting]()
+    <img src="./images/1-linear_reg.png" width="600"/>
     - classification problem; ex: are breast cancer tumors benign or malignant? There are discrete numbers of values
